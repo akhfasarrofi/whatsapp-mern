@@ -1,0 +1,103 @@
+.chat {
+    display: flex;
+    flex-direction: column;
+    flex: 0.65;
+}
+
+/* isi komponen chat__header menjadi flex kemudian posisi icon rata kanan */
+.chat__header {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+}
+
+/* membuat 'last seen at geser 20px' */
+.chat__headerInfo {
+    flex: 1;
+    padding-left: 20px;
+}
+
+/* buat h3 tidak terlalu tebal */
+.chat__headerInfo > h3 {
+    margin-bottom: 3px;
+    font-weight: 500;
+}
+
+/* buat p warna gray */
+.chat__headerInfo > p {
+    color: gray;
+}
+
+/* pesan banyak bisa discroll, span tidak terlalu mepet ke kiri atas dan background bisa dipakai berulang-ulang*/
+.chat__body {
+    flex: 1;
+    background-image: url("https://user-images.githubusercontent.com/15075759/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png");
+    background-repeat: repeat;
+    background-position: center;
+    padding: 30px;
+    overflow: scroll;
+}
+
+/* membungkus pesan menjadi putih */
+.chat__message {
+    position: relative;
+    font-size: 16px;
+    padding: 10px;
+    width: fit-content;
+    border-radius: 10px; /* background menjadi tumpul  */
+    background-color: #ffffff;
+    margin-bottom: 30px;
+}
+
+.chat__receiver {
+margin-left: auto;
+background-color: #dcf8c6;
+}
+
+/* jarak waktu tidak terlalu mepet dengan chat */
+.chat__timestamp {
+    margin-left: 10px;
+    font-size: xx-small;
+}
+
+/* nama orang keluar dari chat__message pos: absolute */
+.chat__name {
+    position: absolute;
+    top: -20px;
+    font-weight: 800;
+    font-size: xx-small;
+}
+
+/* merapihkan letak footer */
+.chat__footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+    border-top: 1px solid lightgray;
+}
+
+.chat__footer > form {
+    flex: 1;
+    display: flex;
+}
+
+/* border menjadi oval dan menghilangkan border di form */
+.chat__footer > form > input {
+    flex: 1;
+    border-radius: 30px;
+    padding: 10px;
+    border: none;
+}
+
+/* menghilangkan button */
+.chat__footer > form > button {
+    display: none;
+}
+
+/* memberi jarak antara emotion dan form */
+.chat__footer > .MuiSvgIcon-root {
+    padding: 10px;
+    color: grey;
+}

@@ -1,0 +1,22 @@
+/* memberi garis pada setiap avatar*/
+.sidebarChat {
+    display: flex;
+    padding: 20px;
+    cursor: pointer;
+    border-bottom: 1px solid #f6f6f6;
+}
+
+/* ketika cursor di arahkan ke avatar menjadi pointer */
+.sidebarChat:hover {
+    background-color: #ebebeb;
+}
+
+/* membedakan nama avatar dan isi pesan */
+.sidebarChat__info > h3 {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.sidebarChat__info{
+    margin-left: 15px;
+}
