@@ -14,22 +14,23 @@
 
 # Clone dan Gunakan 📋
 
-- Ada 2 repositori yang harus anda clone ke sistem lokal Anda menggunakan perintah di bawah ini:
-```javascipt
-     git clone https://github.com/akhfasarrofi/whatsapp-mern.git
-```
+- Clone ke sistem lokal Anda menggunakan perintah di bawah ini:
 
-- Jalankan perintah berikut di direktori ```whatsapp-mern```:
-```javascript
+- ```python
+    git clone https://github.com/akhfasarrofi/whatsapp-mern.git
+    ```
+
+- Jalankan perintah berikut di direktori ```whatsapp-mern``` untuk menambahkan dependensi:
+```python
     npm install
 ```
 
 - dan
-```javascript
+- ```python
      git clone https://github.com/akhfasarrofi/whatsapp-mern-backend.git
-```
+    ```
 
-# Buat database di [monggodb](https://docs.mongodb.com/manual/tutorial/getting-started/)
+## Buat database di **[monggodb](https://docs.mongodb.com/manual/tutorial/getting-started/)**
 
 <p align="center"> 
     <img src="images/mongo.JPG" align="center"></img>
