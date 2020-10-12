@@ -12,23 +12,19 @@
   <a href="https://pusher.com/"><img src="https://img.shields.io/badge/pusher-developer-ff69b4" /></a>
 </p>
 
-# Clone dan Gunakan 📋
+## Clone dan Gunakan 📋
 
 - Clone ke sistem lokal Anda menggunakan perintah di bawah ini:
 
-- ```python
+```python
     git clone https://github.com/akhfasarrofi/whatsapp-mern.git
-    ```
+    git clone https://github.com/akhfasarrofi/whatsapp-mern-backend.git
+```
 
 - Jalankan perintah berikut di direktori ```whatsapp-mern``` untuk menambahkan dependensi:
 ```python
     npm install
 ```
-
-- dan
-- ```python
-     git clone https://github.com/akhfasarrofi/whatsapp-mern-backend.git
-    ```
 
 ## Buat database di **[monggodb](https://docs.mongodb.com/manual/tutorial/getting-started/)**
 
@@ -38,8 +34,10 @@
 
 - Setelah anda membuat akun di monggodb, anda akan melihat menu `Clusters` dan pilih `connect`
 
-Jangan lupa ganti `<password>` dan `<dbname>` nya.
-- Buka file `server.js`, anda akan menemukan code seperti dibawah ini:
+Copy koneksi dan jangan lupa ganti `<password>` dan `<dbname>` nya.
+
+- Buka file `server.js` di folde `whatsapp-mern-backend`, anda akan menemukan code seperti dibawah ini:
+
 ```javascript
     /* DB Config */
 const connection_url = "KONEKSI MONGGODB ANDA"
