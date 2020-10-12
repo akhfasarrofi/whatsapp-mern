@@ -45,6 +45,9 @@ Copy koneksi anda sendiri dan jangan lupa ganti `<password>` dan `<dbname>` nya.
 ## Buat akun di **[pusher](https://pusher.com/)**
 
 - Pilih `Create app` lalu isikan bagian frontend dengan ```reactjs``` dan backend ```nodejs```
+<p align="center"> 
+    <img src="images/pusher.JPG" align="center"></img>
+</p>
 - Copy API di Step 1 dan tempelkan pada file ````App.js``` yang ada di foler ```whatsap-mern```
 ```javascript
 /* konek ke pusher api */
