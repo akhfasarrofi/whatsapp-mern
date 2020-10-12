@@ -39,7 +39,7 @@ Copy koneksi dan jangan lupa ganti `<password>` dan `<dbname>` nya.
 - Buka file `server.js` di folde `whatsapp-mern-backend`, anda akan menemukan code seperti dibawah ini:
 
 ```javascript
-    /* DB Config */
+/* DB Config */
 const connection_url = "KONEKSI MONGGODB ANDA"
 ```
 - Jalankan perintah `nodemon` untuk menjalankan servernya di folder `whatsapp-mern-backend` dan jalankan `npm start` di folede `whatsapp-mern`
