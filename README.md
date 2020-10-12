@@ -42,5 +42,25 @@ const connection_url = "KONEKSI MONGGODB ANDA"
 ```
 Copy koneksi anda sendiri dan jangan lupa ganti `<password>` dan `<dbname>` nya.
 
+## Buat akun di **[pusher](https://pusher.com/)**
+
+- Pilih `Create app` lalu isikan bagian frontend dengan ```reactjs``` dan backend ```nodejs```
+- Copy API di Step 1 dan tempelkan pada file ````App.js``` yang ada di foler ```whatsap-mern```
+```javascript
+/* konek ke pusher api */
+  useEffect(() => {
+    const pusher = new Pusher('API anda', {
+      cluster: 'ap1'
+    });
+```
+
+- Scrol ke bawah sampai menemukan step 2 dan lalukan hal yang sama seperti langkah sebelumnya
+```javascript
+/* connect to pusher */
+const pusher = new Pusher({
+    /* PASTEKAN DISINI */
+});
+```
+
 - Jalankan perintah `nodemon` untuk menjalankan servernya di folder `whatsapp-mern-backend` dan jalankan `npm start` di folede `whatsapp-mern`
 
