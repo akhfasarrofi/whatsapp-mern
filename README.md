@@ -34,13 +34,13 @@
 
 - Setelah anda membuat akun di monggodb, anda akan melihat menu `Clusters` dan pilih `connect`
 
-Copy koneksi dan jangan lupa ganti `<password>` dan `<dbname>` nya.
-
-- Buka file `server.js` di folde `whatsapp-mern-backend`, anda akan menemukan code seperti dibawah ini:
+- Buka file `server.js` di folder `whatsapp-mern-backend`, dan anda akan menemukan code seperti dibawah ini:
 
 ```javascript
 /* DB Config */
 const connection_url = "KONEKSI MONGGODB ANDA"
 ```
+Copy koneksi anda sendiri dan jangan lupa ganti `<password>` dan `<dbname>` nya.
+
 - Jalankan perintah `nodemon` untuk menjalankan servernya di folder `whatsapp-mern-backend` dan jalankan `npm start` di folede `whatsapp-mern`
 
