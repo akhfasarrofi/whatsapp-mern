@@ -9,7 +9,7 @@
   <a href="https://reactjs.org/"><img alt="Made With React" src="https://img.shields.io/badge/made%20with-react-61DAFB?style=flat-square" /></a>
   <a href="https://www.npmjs.com/package/npm/v/6.13.4"><img alt="NPM" src="https://img.shields.io/badge/npm-6.13.7-blueviolet?style=flat-square" /></a>
   <a href="https://expressjs.com/"><img src="https://img.shields.io/badge/express-js-lightgrey" /></a>
-  <a href="https://pusher.com/"><img src="https://img.shields.io/badge/pusher-developer-ff69b4
+  <a href="https://pusher.com/"><img src="https://img.shields.io/badge/pusher-developer-ff69b4" /></a>
 </p>
 
 # Clone dan Gunakan 📋
