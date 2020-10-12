@@ -1,8 +1,8 @@
+<h1 align="center"> Whatsapp MERN 🔥 </h1>
+
 <p align="center"> 
     <img src="images/banner.JPG" align="center"></img>
 </p>
-
-<h1 align="center"> Whatsapp MERN 🔥 </h1>
 
 <p align="center">
   <a href="https://nodejs.org/en/blog/release/v12.13.0/"><img alt="NodeJS" src="https://img.shields.io/badge/node-12.14.1-important?style=flat-square" /></a>
@@ -13,20 +13,21 @@
 </p>
 
 # Clone dan Gunakan 📋
+
 - Ada 2 repositori yang harus anda clone ke sistem lokal Anda menggunakan perintah di bawah ini:
-  - ```python
+```javascipt
      git clone https://github.com/akhfasarrofi/whatsapp-mern.git
-    ```
+```
 
 - Jalankan perintah berikut di direktori ```whatsapp-mern```:
-  - ```python
+```javascript
     npm install
-    ```
+```
 
 - dan
- - ```python
+```javascript
      git clone https://github.com/akhfasarrofi/whatsapp-mern-backend.git
-    ```
+```
 
 # Buat database di [monggodb](https://docs.mongodb.com/manual/tutorial/getting-started/)
 
